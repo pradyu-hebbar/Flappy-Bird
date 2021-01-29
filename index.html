@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <title>Flappy Bird</title>
     <link
       rel="stylesheet"
@@ -22,10 +23,6 @@
   <body>
     <canvas width="320" height="480"></canvas>
     <script>
-      const favicon = document.createElement("link");
-      favicon.rel = "icon";
-      favicon.href = "./img/favicon.png";
-      favicon.type = "image/png";
       const cvs = document.querySelector("canvas"),
         ctx = cvs.getContext("2d");
       let frames = 0;
